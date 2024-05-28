@@ -45,15 +45,23 @@ int main(void) {
 
 ## Conversiones Implementadas
 
-%c : Imprime un solo carácter.
-%s : Imprime una cadena de caracteres.
-%p : Imprime un puntero en formato hexadecimal.
-%d : Imprime un número decimal (base 10).
-%i : Imprime un entero en base 10.
-%u : Imprime un número decimal sin signo.
-%x : Imprime un número hexadecimal en minúsculas.
-%X : Imprime un número hexadecimal en mayúsculas.
-%% : Imprime el símbolo del porcentaje.
+%c : Imprime un solo carácter
+
+%s : Imprime una cadena de caracteres
+
+%p : Imprime un puntero en formato hexadecimal
+
+%d : Imprime un número decimal (base 10)
+
+%i : Imprime un entero en base 10
+
+%u : Imprime un número decimal sin signo
+
+%x : Imprime un número hexadecimal en minúsculas
+
+%X : Imprime un número hexadecimal en mayúsculas
+
+%% : Imprime el símbolo del porcentaje
 
 ## Ejemplos:
 
