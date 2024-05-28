@@ -21,7 +21,7 @@
 
 1. Clona este repositorio en tu máquina local:
     ```sh
-    git clone https://github.com/tu_usuario/ft_printf.git
+    git clone https://github.com/DaNNy0o0/Ft_printf.git
     cd ft_printf
     ```
 
@@ -41,3 +41,14 @@ int main(void) {
     ft_printf("Hello, %s!\n", "world");
     return 0;
 }
+
+Conversión Implementadas
+%c : Imprime un solo carácter.
+%s : Imprime una cadena de caracteres.
+%p : Imprime un puntero en formato hexadecimal.
+%d : Imprime un número decimal (base 10).
+%i : Imprime un entero en base 10.
+%u : Imprime un número decimal sin signo.
+%x : Imprime un número hexadecimal en minúsculas.
+%X : Imprime un número hexadecimal en mayúsculas.
+%% : Imprime el símbolo del porcentaje.
