@@ -1,5 +1,8 @@
 # ft_printf
 
+![Resultado](Result_100.png)
+
+
 ## Descripción
 
 **ft_printf** es una reimplementación de la famosa y versátil función `printf()` de la biblioteca estándar de C. Este proyecto tiene como objetivo mejorar tus habilidades de programación, enseñándote a manejar un número variable de argumentos y a estructurar un código extensible y bien organizado.
