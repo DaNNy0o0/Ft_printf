@@ -20,13 +20,13 @@
 ## Instalación
 
 1. Clona este repositorio en tu máquina local:
-    ```sh
+    ```
     git clone https://github.com/DaNNy0o0/Ft_printf.git
     cd ft_printf
     ```
 
 2. Compila la librería:
-    ```sh
+    ```
     make
     ```
 
@@ -34,15 +34,17 @@
 
 Incorpora `ft_printf` en tu proyecto incluyendo el archivo de cabecera y enlazando la librería:
 
-```c
+```
 #include "ft_printf.h"
 
 int main(void) {
     ft_printf("Hello, %s!\n", "world");
     return 0;
 }
+```
 
-Conversión Implementadas
+## Conversiones Implementadas
+
 %c : Imprime un solo carácter.
 %s : Imprime una cadena de caracteres.
 %p : Imprime un puntero en formato hexadecimal.
@@ -52,3 +54,16 @@ Conversión Implementadas
 %x : Imprime un número hexadecimal en minúsculas.
 %X : Imprime un número hexadecimal en mayúsculas.
 %% : Imprime el símbolo del porcentaje.
+
+## Ejemplos:
+
+```
+ft_printf("Character: %c\n", 'A');
+ft_printf("String: %s\n", "Hello, World!");
+ft_printf("Pointer: %p\n", ptr);
+ft_printf("Decimal: %d\n", 42);
+ft_printf("Unsigned: %u\n", 42);
+ft_printf("Hex (lowercase): %x\n", 255);
+ft_printf("Hex (uppercase): %X\n", 255);
+ft_printf("Percent sign: %%\n");
+```
